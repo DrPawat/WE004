@@ -6,8 +6,8 @@ int main() {
 
    while (a<=10)
     {
+        printf("student %d height = ", a);
         scanf_s("%f", &num);
-        printf("student %d height = %.2f\n", a, num);
         sum = sum + num;
         a++;
     }
